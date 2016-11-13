@@ -4,7 +4,7 @@
 
 # Site
 title: 夏锦春的博客
-subtitle: make something cool.
+subtitle: make something cool
 description: 我是夏锦春，程序员一枚，这是他的博客。
 author: 夏锦春
 language:
@@ -14,7 +14,7 @@ timezone: Asia/Chongqing
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://xiajinchun.com
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :year/:month/:title/
 permalink_defaults:
 
 # Directory
@@ -66,7 +66,7 @@ deploy:
   type: git
   repo: 
     github: git@github.com:xiajinchun/xiajinchun.github.io.git
-    coding: git@git.coding.net:xiajinchun/xiajinchun.git, coding-pages
+    coding: git@git.coding.net:xiajinchun/xiajinchun.git
 
 # Themes: https://hexo.io/themes/
 theme: yilia
